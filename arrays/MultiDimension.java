@@ -1,7 +1,7 @@
 package arrays;
 
 public class MultiDimension {
-    public static void main(String[] args) {
+    public MultiDimension() {
         int[][] matrix = {
                 { 1, 2, 3 },
                 { 4, 5, 6 },
@@ -13,5 +13,9 @@ public class MultiDimension {
                 System.out.println(matrix[i][j]);
             }
         }
+    }
+
+    public static void main(String[] args) {
+        new MultiDimension();
     }
 }

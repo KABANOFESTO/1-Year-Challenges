@@ -50,4 +50,11 @@ class Solution {
 
         return maxSum;
     }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        int[] nums = { 2, 5, 3, 4, 6, 1, 7 };
+        long result = solution.maxSumTrionic(nums);
+        System.out.println(result);
+    }
 }

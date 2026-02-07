@@ -10,11 +10,11 @@ public class Triangle {
             return;
         }
         if (c < r) {
-            System.out.print("*");
             triangle(r, c + 1);
+            System.out.print("*");
         } else {
-            System.out.println();
             triangle(r - 1, c = 0);
+            System.out.println();
         }
     }
 

@@ -12,10 +12,10 @@ public class UnionFind {
         uf.union(7, 8);
         uf.union(8, 9);
 
-        System.out.println(uf.connected(0, 2)); // true
-        System.out.println(uf.connected(3, 5)); // true
-        System.out.println(uf.connected(6, 9)); // true
-        System.out.println(uf.connected(0, 3)); // false
+        System.out.println(uf.connected(0, 2)); 
+        System.out.println(uf.connected(3, 5)); 
+        System.out.println(uf.connected(6, 9)); 
+        System.out.println(uf.connected(0, 3)); 
     }
 
     private int size;
